@@ -59,8 +59,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+     - images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -74,10 +74,28 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+     - family: Somar
+       fonts:
+         - asset: fonts/SomarSans-Black.ttf
+         - asset: fonts/SomarSans-BlackItalic.ttf
+         - asset: fonts/SomarSans-Bold.ttf
+         - asset: fonts/SomarSans-BoldItalic.ttf
+         - asset: fonts/SomarSans-ExtraBold.ttf
+         - asset: fonts/SomarSans-ExtraBoldItalic.ttf
+         - asset: fonts/SomarSans-ExtraLight.ttf
+         - asset: fonts/SomarSans-ExtraLightItalic.ttf
+         - asset: fonts/SomarSans-Light.ttf
+         - asset: fonts/SomarSans-LightItalic.ttf
+         - asset: fonts/SomarSans-Medium.ttf
+         - asset: fonts/SomarSans-MediumItalic.ttf
+         - asset: fonts/SomarSans-Regular.ttf
+         - asset: fonts/SomarSans-RegularItalic.ttf
+         - asset: fonts/SomarSans-SemiBold.ttf
+         - asset: fonts/SomarSans-SemiBoldItalic.ttf
+         - asset: fonts/SomarSans-Thin.ttf
+         - asset: fonts/SomarSans-ThinItalic.ttf
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
